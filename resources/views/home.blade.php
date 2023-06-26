@@ -4,9 +4,8 @@
     <div class="container">
         <div class="row row-cols-3">
             @foreach ($movies as $movie)
-                <div class="col">
+                <div class="col py-3 h-100">
                     <div class="card">
-                        {{-- <img src="..." class="card-img-top" alt="..."> --}}
                         @include('partials.card')
                     </div>
                 </div>

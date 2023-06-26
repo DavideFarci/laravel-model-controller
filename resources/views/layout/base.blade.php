@@ -9,7 +9,9 @@
 
 
     <body>
-        @yield('content')
-        {{-- <img src="{{ Vite::asset('resources/img/picsum30.jpg') }}" alt=""> --}}
-    </body>
-</html>
+        @include('partials.header')
+            @yield('content')
+        </body>
+    </html>
+
+    {{-- <img src="{{ Vite::asset('resources/img/picsum30.jpg') }}" alt=""> --}}
