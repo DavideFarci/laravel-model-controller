@@ -14,6 +14,6 @@ class PageController extends Controller
         // dd(Movie::all());
 
 
-        return view('welcome', compact('movies'));
+        return view('home', compact('movies'));
     }
 }
